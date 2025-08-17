@@ -3,7 +3,7 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Ahiru78_java-project-78&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Ahiru78_java-project-78)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Ahiru78_java-project-78&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Ahiru78_java-project-78)
 
-### Валидатор данных
+## Описание проекта
 
 Валидатор данных – библиотека, с помощью которой можно проверять корректность любых данных.
 
