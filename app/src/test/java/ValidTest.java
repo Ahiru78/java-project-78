@@ -1,7 +1,7 @@
-import hexlet.code.Schemas.BaseSchema;
-import hexlet.code.Schemas.MapSchema;
-import hexlet.code.Schemas.NumberSchema;
-import hexlet.code.Schemas.StringSchema;
+import hexlet.code.schemas.BaseSchema;
+import hexlet.code.schemas.MapSchema;
+import hexlet.code.schemas.NumberSchema;
+import hexlet.code.schemas.StringSchema;
 import hexlet.code.Validator;
 
 import java.util.HashMap;
