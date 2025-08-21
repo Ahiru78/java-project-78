@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
 
-public abstract class BaseSchema<T> {
+public class BaseSchema<T> {
 
     private Map<String, Predicate<T>> checkList = new HashMap<>();
     protected boolean isRequired = false;
@@ -13,7 +13,7 @@ public abstract class BaseSchema<T> {
         checkList.put(key, predicate);
     }
 
-    public Boolean isValid(T obj) {
+    public final Boolean isValid(T obj) {
         if (obj == null && !isRequired) {
             return true;
         }
