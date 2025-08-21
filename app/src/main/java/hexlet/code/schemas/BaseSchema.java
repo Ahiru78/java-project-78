@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
 
-public class BaseSchema<T> {
+public abstract class BaseSchema<T> {
 
     private Map<String, Predicate<T>> checkList = new HashMap<>();
     protected boolean isRequired = false;
