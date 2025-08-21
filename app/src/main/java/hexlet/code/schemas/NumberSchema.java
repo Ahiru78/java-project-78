@@ -9,7 +9,7 @@ public class NumberSchema extends BaseSchema<Integer> {
     }
 
     public NumberSchema positive() {
-        addCheck("positive", value -> value >= 0);
+        addCheck("positive", value -> value > 0);
         return this;
     }
 
