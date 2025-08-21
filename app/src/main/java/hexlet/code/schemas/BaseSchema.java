@@ -7,9 +7,9 @@ import java.util.function.Predicate;
 public class BaseSchema<T> {
 
     private Map<String, Predicate<T>> checkList = new HashMap<>();
-    public boolean isRequired = false;
+    protected boolean isRequired = false;
 
-    public void addCheck(String key, Predicate<T> predicate) {
+    public final void addCheck(String key, Predicate<T> predicate) {
         checkList.put(key, predicate);
     }
 
